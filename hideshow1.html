@@ -7,24 +7,31 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function(){
-            $("#hide").click(function(){
+           /*  $("#hide").click(function(){
                 $("p").hide();
             });
             $("#show").click(function(){
                 $("p").show();
-            });
-
-            /* $("button").click(function(){
-                $("p").hide(1000);
             }); */
+
+            $("#hide").click(function(){
+                $("p").hide(1000);
+            });
+            $("#show").click(function(){
+                $("p").show(1000);
+            });
         });
     </script>
 </head>
 <body>
     
 <p>If you click on the "Hide" button, I will disappear.</p>
+<p>THis is 2nd paragraph</p>
+<p>THis is 3rd paragraph</p>
 
-<button id="hide">Hide</button>
-<button id="show">Show</button>
+
+<!-- <button id="">Hide</button> -->
+<button id="show">Show</button> 
+<button id="hide">Speed Hide </button>
 </body>
 </html>
